@@ -1,0 +1,36 @@
+body {
+	background-color: #84A9AC;
+	color: #E7DFD5;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Crimson";
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 3.5rem;
+	padding: 5% 7% 5% 7%;
+	color: #fff;
+}
+
+/*Navbar*/
+.navbar {
+	background-color: #204051;
+}
+
+/*Title*/
+#title-container {
+}
+#big-title {
+	background-color: #3B6978;
+	text-align: left;
+	line-height: 1.5;
+	}
+
+/*Text Section*/
+#text-beginning {
+	font-size: 2.5rem;
+}
