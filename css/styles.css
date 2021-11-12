@@ -1,6 +1,8 @@
 body {
-	background-color: #84A9AC;
-	color: #E7DFD5;
+	font-family: "Zen Antique", sans-serif;
+	font-size: 14pt;
+	background-color: #E6DDC4;
+	color: #36454F;
 	text-align: center;
 }
 
@@ -8,6 +10,7 @@ h1, h2, h3, h4, h5, h6{
 	font-family: "Crimson";
 	font-weight: bold;
 	line-height: 1.5;
+	color: #grey;
 }
 
 h1 {
@@ -17,20 +20,58 @@ h1 {
 }
 
 /*Navbar*/
+
 .navbar {
-	background-color: #204051;
+	background-color: #181D31;
+}
+
+#brand-name {
+	font-weight: bold;
+}
+
+.dropdown-menu {
+	background-color: #181D31;
+}
+
+.dropdown-item {
+	color: #fff;
+}
+
+.dropdown-menu:hover {
+
 }
 
 /*Title*/
-#title-container {
-}
+
 #big-title {
-	background-color: #3B6978;
+	background-color: #678983;
 	text-align: left;
 	line-height: 1.5;
 	}
 
+/*Intro Columns*/
+
+.intro-cols {
+	background-color: #F0E9D2;
+}
+
+#intro-col-1 {
+	background-color: #E6DDC4;
+	outline: 1px solid #fff;
+	margin: 2% 5% 5% 10%;
+	padding: 2% 8%;
+}
+
+#intro-col-2 {
+	background-color: #E6DDC4;
+	outline: 1px solid #fff;
+	margin: 2% 10% 5% 5%;
+	padding: 2% 8%;
+}
+
+
 /*Text Section*/
+
 #text-beginning {
 	font-size: 2.5rem;
 }
